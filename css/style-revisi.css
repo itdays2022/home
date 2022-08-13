@@ -1,6 +1,10 @@
 /* ================================================= 
                         BANNER
 /* ================================================ */
+section.banner {
+  padding: 0;
+  /* background: green; */
+}
 .banner img {
   width: 90%;
 }
@@ -10,7 +14,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
 }
 
 .banner .text-box h1 {
@@ -106,13 +109,7 @@
 .about .title span {
   padding-left: 3.5rem;
   text-shadow: 5px 3px 5px rgba(189, 94, 240, 0.5);
-}
-
-.about .description {
-  color: #a6a6a6;
-  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
-  margin: 2rem;
-  text-align: justify;
+  margin-top: -0.5rem;
 }
 
 /* ================================================= 
@@ -124,7 +121,6 @@
 /* ================================================ */
 
 .main-activity .container {
-  margin-top: 15rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,12 +202,10 @@
   color: #eaeaea;
   text-align: justify;
   margin-top: 2rem;
-  font-size: 1.2rem;
-  height: 13rem;
 }
 
 .btn-see-more {
-  margin: 1.5rem auto;
+  margin: 5rem auto;
 }
 
 /* ================================================= 
@@ -221,9 +215,6 @@
 /* ================================================= 
                     CONTACT US 
 /* ================================================ */
-.contact-us .container {
-  margin-top: 15rem;
-}
 
 .contact-us ul {
   position: relative;
@@ -282,7 +273,7 @@
   box-shadow: none;
   border: none;
   outline: none;
-  font-size: 1.3rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   font-weight: 500;
   z-index: 1;
@@ -372,9 +363,7 @@ input[type="submit"]:hover {
   /* ================================================= 
                       ABOUT 768PX
 /* ================================================ */
-  .about {
-    margin-top: 8rem;
-  }
+
   .about .title {
     font-size: 4rem;
     text-align: left;
@@ -384,7 +373,6 @@ input[type="submit"]:hover {
   }
 
   .about .description {
-    font-size: 1.5em;
     letter-spacing: 1px;
   }
   /* ================================================= 
