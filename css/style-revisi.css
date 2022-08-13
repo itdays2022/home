@@ -2,6 +2,7 @@
                         BANNER
 /* ================================================ */
 section.banner {
+  /* margin: 0; */
   padding: 0;
   /* background: green; */
 }
@@ -177,7 +178,7 @@ section.banner {
 }
 
 .main-activity .box-eksternal {
-  margin-top: 10rem;
+  margin: 10rem 0;
 }
 .main-activity .box-eksternal .title-eksternal::after {
   right: 0;
