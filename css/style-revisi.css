@@ -213,136 +213,6 @@ section.banner {
 /* ================================================ */
 
 /* ================================================= 
-                    CONTACT US 
-/* ================================================ */
-
-.contact-us ul {
-  position: relative;
-  height: 100%;
-}
-
-.contact-us ul li {
-  position: relative;
-  display: flex;
-  text-align: center;
-  margin-left: -2rem;
-}
-
-.contact-us ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding-left: 1rem;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-.contact-us ul li a i {
-  font-size: 2rem;
-  margin-right: 1.2rem;
-}
-.contact-us a:hover {
-  color: var(--clr);
-  text-shadow: 0 0 1px rgba(255, 255, 255, 1);
-}
-
-.contact-us .row-contact .col-contact {
-  position: relative;
-  margin: 30px 0 10px;
-  padding: 0 10px;
-  transition: 0.5s;
-}
-
-.contact-us .row-contact .col-contact .input-box {
-  position: relative;
-  width: 100%;
-  height: 40px;
-  color: #eaeaea;
-}
-
-.contact-us .row-contact .col-contact .input-box input,
-.contact-us .row-contact .col-contact .input-box.textarea textarea {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: transparent;
-  resize: none;
-  box-shadow: none;
-  border: none;
-  outline: none;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  font-weight: 500;
-  z-index: 1;
-  color: #fff;
-}
-
-.contact-us .row-contact .col-contact .input-box .text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 40px;
-  font-size: 18px;
-  padding: 0 10px;
-  display: block;
-  transition: 0.5s;
-  pointer-events: none;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-.contact-us .row-contact .col-contact .input-box.textarea textarea {
-  height: 4.5rem;
-}
-
-.contact-us .row-contact .col-contact .textarea .text {
-  line-height: 100px;
-}
-.contact-us .row-contact .col-contact .input-box input:focus + .text,
-.contact-us .row-contact .col-contact .input-box input:valid + .text {
-  top: -35px;
-  left: -10px;
-  color: #fff;
-}
-
-.contact-us .row-contact .col-contact .input-box .line {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  background: #eaeaea;
-  border-radius: 2px;
-}
-.contact-us .row-contact .col-contact .textarea .line {
-  transform: translateY(30px);
-}
-.contact-us .row-contact .col-contact .input-box textarea:focus + .text,
-.contact-us .row-contact .col-contact .input-box textarea:valid + .text {
-  top: -65px;
-  left: -10px;
-  color: #fff;
-}
-
-input[type="submit"] {
-  border-radius: 10px;
-  padding: 7px 35px;
-  cursor: pointer;
-  outline: none;
-  background: #45f3ff;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-input[type="submit"]:hover {
-  box-shadow: 0px 0px 10px rgba(0, 255, 242, 0.3);
-}
-
-/* ================================================= 
-                END CONTACT US
-/* ================================================ */
-
-/* ================================================= 
                 DISPLAY 768PX TABLET 
 /* ================================================ */
 @media (min-width: 768px) {
@@ -394,8 +264,7 @@ input[type="submit"]:hover {
   .main-activity .image {
     margin-top: 5rem;
   }
-
-  .btn-see-more {
+  .main-activity .btn-see-more {
     margin-top: 5rem;
   }
   /* ================================================= 
@@ -469,23 +338,10 @@ input[type="submit"]:hover {
   }
 
   .main-activity .btn-see-more {
-    margin-top: -1rem;
+    margin-top: 3rem;
   }
   /* ================================================= 
                 END MAIN ACTIVITY 992PX
-/* ================================================ */
-
-  /* ================================================= 
-                CONTACT US 992PX
-/* ================================================ */
-
-  .contact-us ul li a {
-    font-size: 1.5rem;
-    padding-left: 2rem;
-    margin: 0.5rem;
-  }
-  /* ================================================= 
-               END CONTACT US 992PX
 /* ================================================ */
 }
 
