@@ -16,11 +16,13 @@ body {
   background: linear-gradient(to bottom right, #07122c, #211032, #330b2f);
 }
 section {
-  margin: 6rem 0;
+  padding: 5rem 0;
+  margin: 5rem 0;
 }
 
 main {
-  margin-top: 5rem;
+  margin-top: 0;
+  padding-top: 1rem;
 }
 
 /* ================================================= 
@@ -81,7 +83,6 @@ main {
                  BUTTON SEE MORE
 /* ================================================ */
 .btn-see-more {
-  position: relative;
   width: 10rem;
   height: 3rem;
   margin: 3rem;
@@ -316,20 +317,7 @@ main {
   .title-desc {
     font-size: 2rem;
   }
-  /* ================================================= 
-                   END GENERAL STYLE
-/* ================================================ */
 
-  /* ================================================= 
-                       SECTION
-/* ================================================ */
-
-  /* ================================================= 
-                    END SECTION
-/* ================================================ */
-  /* ================================================= 
-                     FOOTER 768PX
-/* ================================================ */
   .footer .quick-links {
     padding-left: 3rem;
   }
@@ -367,7 +355,6 @@ main {
   .btn-see-more {
     width: 10rem;
     height: 2.5rem;
-    margin: 5rem;
   }
   /* ================================================= 
                END BUTTON SEE MORE 992PX
